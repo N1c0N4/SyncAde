@@ -1,0 +1,37 @@
+# SyncAde Module .gitignore
+# This file ignores files specific to the sync_ade module
+
+# Environment files with sensitive data
+.env.local
+.env.production
+.env.development
+
+# Log files
+*.log
+logs/
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
